@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geraçao Escolhida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Geraçao Escolhida</h1>
+            <p> Que bom ter você aqui, <span id="nome_usuário"> Lucas </span></p>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#encontros">Encontros</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo ao Grupo de Jovens Geraçao Escolhida. Fundado em setembro de 2020, nossa missão é resgatar jovens para Cristo</p>
+        </div>
+    </section>
+
+    <section id="encontros">
+        <div class="container">
+            <h2>Encontros</h2>
+            <ul>
+                <li>Sabado: 14/09 as 18:30</li>
+                <li>Sábado: 28/09 as 18:30</li>
+                <li>Sabao: 16/10 as 18:30</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="eventos">
+        <div class="container">
+            <h2>Eventos</h2>
+            <ul>
+                <li>Cha Beneficiente</li>
+                <li>Grupo KAIROS: 16 de Outubro</li>
+                <li>Retiro Decanato: 16/17 de Novembro</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="enviar_mensagem.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Geraçao Escolhida. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+<script src="main.js"></script>
+</body>
+</html>
+<link rel="stylesheet" href="style.css">
